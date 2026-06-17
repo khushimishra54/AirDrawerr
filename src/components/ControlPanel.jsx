@@ -191,53 +191,73 @@ const ControlPanel = ({
         )}
       </AnimatePresence>
 
-      {/* Branding / Social Links */}
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: '12px',
-        marginTop: '12px',
-        justifyContent: 'center',
-      }}>
-        <a
-          href="https://www.instagram.com/code.akshat.in/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            color: 'rgba(255, 255, 255, 0.6)',
-            transition: 'color 0.2s, transform 0.2s',
-            display: 'flex',
-            alignItems: 'center',
-          }}
-          onMouseEnter={e => { e.currentTarget.style.color = '#E1306C'; e.currentTarget.style.transform = 'scale(1.2)'; }}
-          onMouseLeave={e => { e.currentTarget.style.color = 'rgba(255,255,255,0.6)'; e.currentTarget.style.transform = 'scale(1)'; }}
-        >
-          <InstagramIcon size={20} />
-        </a>
-        <a
-          href="https://github.com/Axshatt"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            color: 'rgba(255, 255, 255, 0.6)',
-            transition: 'color 0.2s, transform 0.2s',
-            display: 'flex',
-            alignItems: 'center',
-          }}
-          onMouseEnter={e => { e.currentTarget.style.color = '#fff'; e.currentTarget.style.transform = 'scale(1.2)'; }}
-          onMouseLeave={e => { e.currentTarget.style.color = 'rgba(255,255,255,0.6)'; e.currentTarget.style.transform = 'scale(1)'; }}
-        >
-          <GithubIcon size={20} />
-        </a>
-        <span style={{
-          fontSize: '10px',
-          color: 'rgba(255, 255, 255, 0.35)',
-          fontWeight: 500,
-          letterSpacing: '0.05em',
-        }}>
-          @code.akshat.in
-        </span>
-      </div>
+    {/* Branding / Social Links */}
+<div
+  style={{
+    display: 'flex',
+    alignItems: 'center',
+    gap: '12px',
+    marginTop: '12px',
+    justifyContent: 'center',
+  }}
+>
+  {/* Instagram */}
+  <a
+    href="https://instagram.com/_dreamy_eyes54"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      color: 'rgba(255, 255, 255, 0.6)',
+      transition: 'color 0.2s, transform 0.2s',
+      display: 'flex',
+      alignItems: 'center',
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.color = '#E1306C';
+      e.currentTarget.style.transform = 'scale(1.2)';
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.color = 'rgba(255,255,255,0.6)';
+      e.currentTarget.style.transform = 'scale(1)';
+    }}
+  >
+    <InstagramIcon size={20} />
+  </a>
+
+  {/* GitHub */}
+  <a
+    href="https://github.com/khushimishra54"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      color: 'rgba(255, 255, 255, 0.6)',
+      transition: 'color 0.2s, transform 0.2s',
+      display: 'flex',
+      alignItems: 'center',
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.color = '#fff';
+      e.currentTarget.style.transform = 'scale(1.2)';
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.color = 'rgba(255,255,255,0.6)';
+      e.currentTarget.style.transform = 'scale(1)';
+    }}
+  >
+    <GithubIcon size={20} />
+  </a>
+
+  <span
+    style={{
+      fontSize: '10px',
+      color: 'rgba(255, 255, 255, 0.35)',
+      fontWeight: 500,
+      letterSpacing: '0.05em',
+    }}
+  >
+    © Khushi Mishra
+  </span>
+</div>  
     </div>
   );
 };
