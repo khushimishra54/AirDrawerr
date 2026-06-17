@@ -53,8 +53,6 @@ Draw in the air with your dominant hand and manipulate your creations in real-ti
 
 ## 👨‍💻 Developer
 **Khushi Mishra**  
-📸 Instagram: [@code.akshat.in](https://www.instagram.com/_dreamy_eyes54/)  
-🐙 GitHub: [Axshatt](https://github.com/khushimishra54)
 
 ---
 *Built with passion for AI and Spatial Computing.*
